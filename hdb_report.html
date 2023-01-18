@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report page</title>
+    <link rel="stylesheet" href="style_report.css">
+</head>
+
+<script src= "functions.js"></script>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Report Page</h1>
+            <h3>Report any:</h3>
+            <ul>
+                <li>Infrastructure defects</li>
+                <li>Illegal parking (Breach of entry gates, Parking in season parking lots)</li>
+                <li>Prolonged traffic honking</li>
+                <li>Poor maintenance (signage, lighting, debris)</li> 
+            </ul>
+            <ol>
+                <li><strong>Description</strong><br>
+                    <textarea cols="15" rows="5" placeholder="Raise your complaint..."required></textarea>
+                </li><br>
+                <li><strong>Upload image (if any)</strong><br><br>
+                    <input type = "file" value="Upload image file" multiple = "false" accept = "image/*" id = "img1" onchange= "upload()">
+                </li><br>
+                <li>
+                    <strong>Any suggestions</strong><br>
+                    <textarea cols="15" rows="5" placeholder="Key in your suggestions here..."></textarea>
+                </li><br>
+            </ol>
+            <input type = "button" value="Submit" onclick="popup()" class ="button">
+        </form>
+    </div>
+    <button onclick="window.history.back()" class="button2">
+        <strong>BACK</strong></button>
+</body>
