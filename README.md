@@ -14,8 +14,10 @@ We found inspiration in various websites and applications such as oneservice.gov
 **What it does**
 Our crowdsourcing community website gathers collective, on-site feedback directly from residents which reach HDB, allowing them to take immediate action and ensure proper maintenance as well as update residents about ongoing works in the car parks.
 
-**Link for presentation video**
-[Video](https://www.youtube.com/watch?v=Ez_tIBmDIME)
 **How we built it**
 We created our webpage using HTML and CSS. Javascript functions were linked nicely within the HTML sheet to provide a smooth, dynamic web experience. We split the workload by taking subpages to work and merging all of them later to ensure flow. We referred to secondary sources like Youtube tutorials and coding websites to gain inspiration to get started with the code for different features in the website. We researched to get to know about the context of the problem statement and drew out designs before we started to code. We then pieced together everything, with aesthetics and practicality in mind, ensuring the website is user-friendly and accessible.
+
+----
+**Link for presentation video**
+[Video](https://www.youtube.com/watch?v=Ez_tIBmDIME)
 
