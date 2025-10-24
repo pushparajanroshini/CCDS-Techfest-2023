@@ -1,4 +1,4 @@
-# Team44_RTF-TechFest-23-
+# Team44_Report-The-Fault-TechFest-2023
 Our first school hackathon project.
 
 Problem Statement:
